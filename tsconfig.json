@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // or any other target you prefer
+    "module": "CommonJS", // or "ESNext" for modern JS modules
+    "outDir": "./dist", // where compiled JS files will be output
+    "rootDir": "./src", // where your TypeScript source files are
+    "declaration": true, // to generate .d.ts declaration files
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}

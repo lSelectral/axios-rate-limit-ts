@@ -1,0 +1,39 @@
+{
+  "name": "axios-rate-limit-ts",
+  "description": "Rate limit for axios with type safety.",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lSelectral/axios-rate-limit-ts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lSelectral/axios-rate-limit-ts.git"
+  },
+  "homepage": "https://github.com/lSelectral/axios-rate-limit-ts#readme",
+
+  "scripts": {
+    "build": "tsc"
+  },
+
+  "keywords": [
+    "axios",
+    "rate",
+    "limit",
+    "typescript",
+    "interceptor",
+    "axios-rate-limit"
+  ],
+  "author": "Recep Çiftçi (recepagah12@gmail.com)",
+  "peerDependencies": {
+    "axios": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  }
+}
